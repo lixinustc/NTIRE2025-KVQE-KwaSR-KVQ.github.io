@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="NTIRE 2025 | The Second Challenge on Short-form UGC Video Quality Assessment and Enhancement">
+  <meta name="keywords" content="UCIP">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NTIRE 2025 | The Second Challenge on Short-form UGC Video Quality Assessment and Enhancement</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script type="text/javascript" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <style>
+ @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes trophyBounce {
+      0%, 100% {
+        transform: scale(1) translateY(0);
+      }
+      50% {
+        transform: scale(1.1) translateY(-4px);
+      }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% {
+        box-shadow: 0 0 0 rgba(255, 215, 0, 0);
+      }
+      50% {
+        box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+<!--       <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://renyulin-f.github.io/MoE-DiffIR.github.io/">
+            MoE-DiffIR
+          </a>
+          <a class="navbar-item" href="https://lixinustc.github.io/projects/KVQ/">
+            KVQ
+          </a>
+           <a class="navbar-item" href="https://wxrui182.github.io/CoNo.github.io/">
+            CoNo
+          </a>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"><span class="emoji trophy">🏆</span> NTIRE 2025 | The Second Challenge on
+    Short-form UGC Video Quality Assessment and Enhancement <br>
+    <span class="highlight">✨ KwaiSR and KVQ Datasets ✨</span></h1>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+               <span class="link-block">
+                <a href="https://codalab.lisn.upsaclay.fr/competitions/21346"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-trophy"></i>
+                  </span>
+                  <span>Competitions</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2504.13131"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+<!--               <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a> -->
+              </span>
+              <!-- Video Link. -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/lixinustc/KVQE-Challenge-CVPR-NTIRE2025"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/lixinustc/KVQE-Challenge-CVPR-NTIRE2025"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title is-3">Organizers</h2>
+        <div class="content has-text-justified">
+          <p>
+  <style>
+    /* 外层容器，使用 Flex 布局，并自动换行 */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* 居中对齐 */
+      gap: 10px;  /* 每个项目之间的间距 */
+      max-width: 1000px; /* 根据需要调整总宽度 */
+      margin: 0 auto;
+    }
+    /* 每个人的外层容器 */
+    .person {
+      /* 保证每行6个 */
+      flex: 0 0 calc(100% / 6 - 20px);
+      display: flex;
+      justify-content: center;
+    }
+    /* 圆形背景容器 */
+    .circle {
+      width: 100px;       /* 可调整圆形直径 */
+      height: 100px;
+      background-color: #add8e6; /* 圆形背景色 */
+      border-radius: 50%; /* 使容器变成圆形 */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* 图片样式 */
+    .circle img {
+      width: 95%;       /* 图片宽度占圆形的 90% */
+      height: 95%;      /* 图片高度占圆形的 90% */
+      object-fit: cover; /* 保持图片比例，超出部分自动裁剪 */
+      border-radius: 50%; /* 使图片也呈现圆形 */
+    }
+    /* 响应式调整（例如屏幕较窄时每行显示3个） */
+    @media (max-width: 768px) {
+      .person {
+        flex: 0 0 calc(100% / 3 - 20px);
+      }
+    }
+  </style>
+</head>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Competition Background</h2>
+        <div class="content has-text-justified">
+         
+
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Important dates</h2>
+        <div class="content has-text-justified">
+           <ul>
+        <li><strong>2025.01.28</strong> Release of train data (input and output) </li>
+           <li><strong>2025.02.01</strong> Release of validation data (inputs only) </li>
+           <li><strong>2025.02.01</strong> Validation server online </li>
+          <li><strong>2025.03.15</strong> Final test data release (inputs only)</li>
+            <li><strong>2025.03.21</strong> Test output results submission deadline</li>
+          <li><strong>2025.03.22</strong> Fact sheets and code/executable submission deadline</li>
+          <li><strong>2025.03.24</strong> Preliminary test results release to the participants</li>
+           <li><strong>2025.03.28</strong> Paper submission deadline for entries from the challenge</li>
+          <li><strong>2025.06.17</strong> NTIRE workshop and challenges, results, and award ceremony (CVPR 2025, Nashville, USA)</li>
+           </ul>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+ 
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Data</h2>
+        <div class="content has-text-justified">
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+  </div>
+</section>
+
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img id="teaser" autoplay muted loop playsinline height="100%">
+            <img src=""
+                 class="interpolation-image"
+                 alt="Interpolate start reference image."/>
+      </img>
+      <h2 class="subtitle has-text-centered">
+        KwaiSR Dataset
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+
+@inproceedings{li2025ntirekvq,
+  title={{NTIRE} 2025 Challenge on Short-form UGC Video Quality Assessment and Enhancement: KwaiSR Dataset and Study},
+  author={Xin Li and Xijun Wang and Bingchen Li and Kun Yuan and Yizhen Shao and
+  Suhang Yao and Ming Sun and Chao Zhou and Radu Timofte and Zhibo Chen},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  year={2025}
+}
+
+@inproceedings{li2025netireshot,
+  title={{NTIRE} 2025 Challenge on Short-form UGC Video Quality Assessment and Enhancement: Methods and Results},
+  author={Xin Li and Kun Yuan and Bingchen Li and Fengbin Guan and
+  Yizhen Shao and Zihao Yu and Xijun Wang and Yiting Lu and Wei Luo and
+  Suhang Yao and Ming Sun and Chao Zhou and Zhibo Chen and Radu Timofte
+        and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  year={2025}
+}
+
+
+@inproceedings{li2024ntire,
+  title={NTIRE 2024 challenge on short-form UGC video quality assessment: Methods and results},
+  author={Li, Xin and Yuan, Kun and Pei, Yajing and Lu, Yiting and Sun, Ming and Zhou, Chao and Chen, Zhibo and Timofte, Radu and Sun, Wei and Wu, Haoning and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6415--6431},
+  year={2024}
+}
+
+
+@inproceedings{lu2024kvq,
+  title={Kvq: Kwai video quality assessment for short-form videos},
+  author={Lu, Yiting and Li, Xin and Pei, Yajing and Yuan, Kun and Xie, Qizhi and Qu, Yunpeng and Sun, Ming and Zhou, Chao and Chen, Zhibo},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={25963--25973},
+  year={2024}
+}
+    </code></pre>
+  </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/lixinustc" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website adapted from the following <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
