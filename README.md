@@ -1,1 +1,1 @@
-# NTIRE2025_KVQE_KwaSR_KVQ.github.io
+# NTIRE2025-KVQE-KwaSR-KVQ.github.io
